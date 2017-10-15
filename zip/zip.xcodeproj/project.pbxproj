@@ -14,7 +14,6 @@
 		08251BF41F9355E3001E85FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08251BF21F9355E3001E85FD /* LaunchScreen.storyboard */; };
 		08251BFC1F936176001E85FD /* ZipCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08251BFB1F936176001E85FD /* ZipCodeDelegate.swift */; };
 		08251BFE1F936189001E85FD /* CashDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08251BFD1F936189001E85FD /* CashDelegate.swift */; };
-		08251C011F9361CA001E85FD /* SwitchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08251C001F9361CA001E85FD /* SwitchDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		08251BF51F9355E3001E85FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08251BFB1F936176001E85FD /* ZipCodeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeDelegate.swift; sourceTree = "<group>"; };
 		08251BFD1F936189001E85FD /* CashDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashDelegate.swift; sourceTree = "<group>"; };
-		08251C001F9361CA001E85FD /* SwitchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 			children = (
 				08251BFB1F936176001E85FD /* ZipCodeDelegate.swift */,
 				08251BFD1F936189001E85FD /* CashDelegate.swift */,
-				08251C001F9361CA001E85FD /* SwitchDelegate.swift */,
 			);
 			name = delegates;
 			sourceTree = "<group>";
@@ -155,7 +152,6 @@
 			files = (
 				08251BEC1F9355E3001E85FD /* ViewController.swift in Sources */,
 				08251BFC1F936176001E85FD /* ZipCodeDelegate.swift in Sources */,
-				08251C011F9361CA001E85FD /* SwitchDelegate.swift in Sources */,
 				08251BEA1F9355E3001E85FD /* AppDelegate.swift in Sources */,
 				08251BFE1F936189001E85FD /* CashDelegate.swift in Sources */,
 			);

@@ -41,6 +41,9 @@
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2N-L9-LZc">
                                 <rect key="frame" x="314" y="156" width="51" height="31"/>
+                                <connections>
+                                    <action selector="toggleS:" destination="BYZ-38-t0r" eventType="valueChanged" id="Yqq-sF-uy5"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -60,6 +63,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="butt" destination="x2N-L9-LZc" id="CR6-Ou-iER"/>
                         <outlet property="cash" destination="hBj-Gy-oOC" id="7Aa-aI-gUD"/>
                         <outlet property="togg" destination="RCU-ba-lAG" id="5Zu-BC-OsS"/>
                         <outlet property="zip" destination="Mbg-Ji-xiC" id="gE2-jy-Sd3"/>

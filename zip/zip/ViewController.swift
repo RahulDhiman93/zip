@@ -10,12 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+    
+    @IBOutlet weak var zip: UITextField!
+    @IBOutlet weak var cash: UITextField!
+    @IBOutlet weak var togg: UITextField!
+    
+    let zipDel = zipDelegate()
+    let cashDel = cashDelegate()
+    let toggDel = ToggDelegate()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+     
+        self.zip.delegate = zipDel
+        self.cash.delegate = cashDel
+        self.togg.delegate = toggDel
+        
     }
-
-   
-
+    
 }
 

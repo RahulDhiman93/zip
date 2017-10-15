@@ -59,6 +59,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cash" destination="hBj-Gy-oOC" id="7Aa-aI-gUD"/>
+                        <outlet property="togg" destination="RCU-ba-lAG" id="5Zu-BC-OsS"/>
+                        <outlet property="zip" destination="Mbg-Ji-xiC" id="gE2-jy-Sd3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

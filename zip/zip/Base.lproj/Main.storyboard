@@ -32,32 +32,32 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Switch is ON!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RCU-ba-lAG">
-                                <rect key="frame" x="16" y="156" width="275" height="30"/>
+                                <rect key="frame" x="16" y="156" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.22907094759999999" green="1" blue="0.96941137990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="NQ1-HI-aEi"/>
-                                    <constraint firstAttribute="width" constant="275" id="yve-LF-Dkd"/>
+                                    <constraint firstAttribute="width" constant="343" id="yve-LF-Dkd"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2N-L9-LZc">
-                                <rect key="frame" x="314" y="156" width="51" height="31"/>
+                                <rect key="frame" x="163" y="209" width="51" height="31"/>
                                 <connections>
                                     <action selector="toggleS:" destination="BYZ-38-t0r" eventType="valueChanged" id="Yqq-sF-uy5"/>
                                 </connections>
                             </switch>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.029831843470000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="hBj-Gy-oOC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="80B-0c-kbI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x2N-L9-LZc" secondAttribute="trailing" constant="12" id="CpW-FM-4dx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x2N-L9-LZc" secondAttribute="trailing" constant="163" id="CpW-FM-4dx"/>
                             <constraint firstItem="Mbg-Ji-xiC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="F0w-ic-Q27"/>
                             <constraint firstItem="hBj-Gy-oOC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="PdF-z5-aKd"/>
                             <constraint firstItem="RCU-ba-lAG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="136" id="ZYq-fd-ZKJ"/>
-                            <constraint firstItem="x2N-L9-LZc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="136" id="dYL-eQ-OHc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RCU-ba-lAG" secondAttribute="trailing" constant="84" id="jmI-Ur-KSp"/>
+                            <constraint firstItem="x2N-L9-LZc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="189" id="dYL-eQ-OHc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RCU-ba-lAG" secondAttribute="trailing" constant="16" id="jmI-Ur-KSp"/>
                             <constraint firstItem="Mbg-Ji-xiC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="p4J-RY-T8d"/>
                             <constraint firstItem="RCU-ba-lAG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="v5e-Q7-g3K"/>
                             <constraint firstItem="Mbg-Ji-xiC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="w4B-zd-fww"/>
@@ -74,6 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="124.58770614692655"/>
         </scene>
     </scenes>
 </document>

@@ -19,18 +19,21 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="zip code here! " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mbg-Ji-xiC">
                                 <rect key="frame" x="16" y="54" width="343" height="30"/>
+                                <color key="backgroundColor" red="0.43995911900000001" green="0.92487732369999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" keyboardType="numberPad" keyboardAppearance="light" returnKeyType="next" textContentType="postal-code"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="cash here !" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hBj-Gy-oOC">
                                 <rect key="frame" x="16" y="106" width="343" height="30"/>
+                                <color key="backgroundColor" red="0.22907094759999999" green="1" blue="0.96941137990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Switch is ON!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RCU-ba-lAG">
                                 <rect key="frame" x="16" y="156" width="275" height="30"/>
+                                <color key="backgroundColor" red="0.22907094759999999" green="1" blue="0.96941137990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="NQ1-HI-aEi"/>
                                     <constraint firstAttribute="width" constant="275" id="yve-LF-Dkd"/>
@@ -46,7 +49,7 @@
                                 </connections>
                             </switch>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.46894593049659328" green="0.51292289836094973" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hBj-Gy-oOC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="80B-0c-kbI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x2N-L9-LZc" secondAttribute="trailing" constant="12" id="CpW-FM-4dx"/>
